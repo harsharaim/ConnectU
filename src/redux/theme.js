@@ -17,7 +17,7 @@ const themeSlice = createSlice({
 
 export default themeSlice.reducer;
 
-export function SetTheme(value){
+export function SetTheme(value) {
   return (dispatch) => {
     dispatch(themeSlice.actions.setTheme(value));
   };
