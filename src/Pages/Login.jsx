@@ -56,7 +56,7 @@ function Login() {
               register={register("email", {
                 required: "Email Address is required",
               })}
-              styles="w-full rounded-full"
+              styles="w-full rounded-lg"
               labelStyle="ml-2"
               error={errors.email ? errors.email.message : ""}
             />
@@ -68,7 +68,7 @@ function Login() {
               register={register("password", {
                 required: "password is required",
               })}
-              styles="w-full rounded-full "
+              styles="w-full rounded-lg "
               labelStyle="ml-2"
               error={errors.password ? errors.password?.message : ""}
             />
