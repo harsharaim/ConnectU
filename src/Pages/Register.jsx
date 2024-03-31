@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { useDispatch } from "react-redux";
-import { LoginImg, Logo } from "../Components/Assets/index.js";
+import { LoginImg, Logo } from "../assets/index.js";
 
-import { Loading, CustomButton, TextInput } from "../Components";
+import { Loading, CustomButton, TextInput } from "../components";
 import { Link } from "react-router-dom";
 function Register() {
   const {
